@@ -1,4 +1,4 @@
-import { useState,useEffect } from 'react'
+import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
@@ -8,11 +8,10 @@ import Carrcompra from './pages/Carrcompra'
 import Login from './pages/Login'
 import Protected from './Protected'
 import { getAllProductos } from './store/slices/poductos.slice'
-import login from './pages/Login'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 import { setboleano } from './store/slices/boleano.slice'
-import Cardproducts from './componentes/home/Cardproducts'
+
 function App() {
 
  const despachar = useDispatch()

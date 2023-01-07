@@ -3,8 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { setcompras } from '../store/slices/arrCompras.slice'
 import { setcantidad } from '../store/slices/cantidad.slice'
 import { settotal } from '../store/slices/total.slice'
-import { setobjeto } from '../store/slices/objeto.slice'
-import { useState,useEffect } from 'react'
+import { useState } from 'react'
 import './carrito.css'
 
 

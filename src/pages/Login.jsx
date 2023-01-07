@@ -2,10 +2,11 @@ import React from 'react'
 import { useForm } from 'react-hook-form'
 import './login.css'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
 
-
+  const nav = useNavigate()
 const {reset,register,handleSubmit} = useForm()
 
 const submit = data => { 
@@ -19,7 +20,9 @@ axios.post(url, data)
 }
 
 
-
+const entrar = () =>  {
+nav('/Home')
+}
 
 
   return (
@@ -35,7 +38,7 @@ axios.post(url, data)
             <label className='pass_n' htmlFor="password">contraseña</label>
             <input className='pass_input' type="password" id='password'  {...register("password")}/>
       
-        <button className='logear'>Login</button>
+        <button onClick={entrar} className='logear'>Login</button>
          </form>
        </article>
     </div>

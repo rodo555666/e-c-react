@@ -1,0 +1,11 @@
+
+.inputf { 
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 5%;
+}

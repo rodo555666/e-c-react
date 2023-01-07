@@ -1,0 +1,81 @@
+.todo {
+   background-color: rgb(14, 17, 30);
+  
+   margin: auto;
+   margin-bottom: 5%;
+   width: 1000px;
+}
+
+
+
+.compras_contenedor { 
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    height: 700px;
+    width: auto;
+    overflow: scroll;
+   
+    margin: auto;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(25, 31, 54, 0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background:rgb(35, 43, 76);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(184, 181, 181);
+  }
+  ::-webkit-scrollbar-corner  {
+    background-color: rgba(40, 36, 36, 0);
+  }
+
+.compra_final {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+   
+    margin: auto;
+}
+
+.btn_cpf { 
+
+    color: rgb(26, 27, 33);
+    font-size: 1.5rem;
+    margin: auto;
+    height: 50px;
+    width: 80%;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(  whitesmoke, rgb(139, 137, 137));
+   
+}
+
+.btn_cpf:hover {
+    background: linear-gradient(  rgb(4, 225, 4), rgb(2, 89, 2));
+    color: whitesmoke;
+}
+
+.total_num { 
+ 
+  border-radius: 20px;
+  padding: 2%;
+  margin: auto;
+  height: auto;
+  width: fit-content;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: linear-gradient(rgb(35, 43, 76),rgb(10, 13, 23))  ;
+}

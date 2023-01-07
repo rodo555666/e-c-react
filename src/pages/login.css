@@ -1,0 +1,76 @@
+.login_container { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 400px;
+    width: 300px;
+    margin-top: 20%;
+   
+}
+
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: repeat(5,1fr);
+    font-size: 1.5rem;
+   border-radius: 20px;
+
+    background-color: rgb(35, 43, 76);
+    height: 600px;
+    width: 300px;
+}
+
+.input_email { 
+    margin: auto;
+    color: aliceblue;
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+.input_e { 
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    height: 30%;
+    grid-column: 1;
+    grid-row: 2;
+    background: linear-gradient( rgb(139, 137, 137), whitesmoke);
+}
+
+
+
+.pass_n { 
+    margin: auto;
+    color: aliceblue;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.pass_input { 
+    border-radius: 10px;
+    margin: auto;
+    height: 30%;
+    width: 80%;
+    grid-column: 1;
+    grid-row: 4;
+    background: linear-gradient( rgb(139, 137, 137), whitesmoke)
+}
+
+.logear {  
+    border: none;
+    background: linear-gradient( whitesmoke,rgb(139, 137, 137));
+    grid-column: 1;
+    grid-row: 5;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.formulario { 
+    text-align: center;
+    
+}

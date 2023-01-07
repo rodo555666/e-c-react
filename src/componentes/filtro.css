@@ -1,0 +1,15 @@
+.filtro_ctn { 
+    
+    background-color: aliceblue;
+    height: auto;
+    width: fit-content;
+    padding: 1%;
+}
+
+.lista { 
+    list-style: none;
+    background-color: brown;
+    margin: 1%;
+    height: auto;
+    width: auto;
+}

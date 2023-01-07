@@ -4,7 +4,6 @@ import { setid } from '../../store/slices/id.slice'
 import { setcompras } from '../../store/slices/arrCompras.slice'
 import { useSelector, useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
-import { useState,useEffect } from 'react'
 import { setcantidad } from '../../store/slices/cantidad.slice'
 import { settotal } from '../../store/slices/total.slice'
 

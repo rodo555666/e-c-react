@@ -3,9 +3,8 @@ import { useState,useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import Cardproducts from '../componentes/home/Cardproducts'
 import { useNavigate } from 'react-router-dom'
-import { setboleano } from '../store/slices/boleano.slice'
 import './home.css'
-import Filtro from '../componentes/Filtro'
+
 
 
 
